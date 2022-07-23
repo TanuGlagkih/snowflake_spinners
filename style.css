@@ -1,25 +1,44 @@
+html {
+  background-color: white;
+  height: 100%;
+}
 
-	html {
-        background-color: white;
-        height: 100%;
-      }
-      
-      body {
-        height: inherit;
-        background-color: red;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      div {
-        display: inline-block;
-        font-size: 10rem;
-        margin: 10px;
-        }
-      
-      div:hover {
-      cursor: pointer;
-      }
-      
+body {
+  height: inherit;
+  background-color: rgba(255, 0, 0, 0.694);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: inline-block;
+  font-size: 10rem;
+  margin: 10px;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.button {
+  font-family: fantasy;
+  border-style: hidden;
+  font-size: xx-large;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: grey 5px 0 10px;
+}
+
+.button:hover {
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: grey 15px 0 20px;
+  cursor: pointer;
+}
